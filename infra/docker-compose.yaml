@@ -6,7 +6,7 @@ services:
     volumes:
       - db-data:/var/lib/postgresql/data/
     env_file:
-      - ./.env
+      - .env
   web:
     image: dardali95/gates:v2.11.1989
     restart: always
@@ -16,7 +16,7 @@ services:
     depends_on:
       - db
     env_file:
-      - ./.env
+      - .env
   nginx:
     image: nginx:1.21.3-alpine
     ports:
