@@ -3,7 +3,6 @@ import re
 from django.core.validators import (MaxLengthValidator, MinLengthValidator,
                                     RegexValidator)
 from rest_framework import serializers
-
 from reviews.models import User
 
 
