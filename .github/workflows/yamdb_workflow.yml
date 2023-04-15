@@ -44,7 +44,7 @@ jobs:
         with:
           context: ./api_yamdb
           push: true
-          tags: abduladukuzov/api_yamdb:latest
+          tags: dardali95/gates:v2.11.1989
 
   deploy:
     runs-on: ubuntu-latest
