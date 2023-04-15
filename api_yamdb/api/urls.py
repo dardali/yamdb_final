@@ -1,7 +1,7 @@
 from django.urls import include, path
 from rest_framework import routers
-from users.views import UserViewSet, registration_view, verification_view
 
+from users.views import UserViewSet, registration_view, verification_view
 from .views import (CategoryViewSet, CommentViewSet, GenreViewSet,
                     ReviewViewSet, TitleViewSet)
 

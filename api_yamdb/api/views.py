@@ -3,8 +3,8 @@ from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters, viewsets
 from rest_framework.pagination import LimitOffsetPagination
-from reviews.models import Category, Genre, Review, Title
 
+from reviews.models import Category, Genre, Review, Title
 from .filters import TitleFilter
 from .mixins import AdminPermissionsMixin, CreateDestroyListViewSet
 from .permissions import IsAdminModeratorAuthorOrReadOnly, IsAdminOrReadOnly
