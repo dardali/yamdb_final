@@ -34,11 +34,10 @@ class Title(models.Model):
     year = models.IntegerField(validators=[year_validator])
     description = models.TextField()
     genre = models.ManyToManyField(
-        Genre, related_name="titles",
-        null=False, blank=False
+        Genre, related_name="titles", blank=False
     )
     category = models.ForeignKey(
-        Category, on_delete=models.SET_NULL, related_name="titles",
+        Category, on_delete=models.SET_NULL, related_name="titles", null=True
     )
 
     def __str__(self):
@@ -47,6 +46,7 @@ class Title(models.Model):
     class Meta:
         verbose_name = 'Произведение'
         verbose_name_plural = 'Произведения'
+
 
 
 class Review(models.Model):
