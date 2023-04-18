@@ -48,7 +48,6 @@ class Title(models.Model):
         verbose_name_plural = 'Произведения'
 
 
-
 class Review(models.Model):
     """Модель для работы с отзывами"""
     author = models.ForeignKey(
