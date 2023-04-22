@@ -12,4 +12,4 @@ pytz==2020.1
 requests==2.26.0
 sqlparse==0.3.1
 djoser
-python-dotenv==0.21.1g
+python-dotenv==0.21.1
