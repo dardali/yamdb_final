@@ -184,7 +184,7 @@ sudo docker-compose exec backend python manage.py createsuperuser
 
 ##  Проект в интернете
 
-Проект запущен и доступен по [адресу](http://62.84.119.129/admin/)
+Проект запущен и доступен по [адресу](http://51.250.18.233/admin/)
 
 ##  Авторы.
 
